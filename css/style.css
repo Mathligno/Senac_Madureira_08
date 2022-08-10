@@ -1,0 +1,37 @@
+main{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+a:link, a:visited {
+    background-color: #A9A9A9;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+}
+  
+  a:hover, a:active {
+    background-color:#ca884a;
+}
+article{
+    text-align: center;
+}
+footer{
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    position: relative;
+    background-color: rgba(28,28,29,0.5);
+    border-radius: 10px;
+    padding: 20px   ;
+}
+h4, h2{
+    text-align: center;
+}
