@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+    <title>formulário</title>
+</head>
+<body>
+	<header>
+        <h4>
+            <a href="index.html">Página Principal</a>
+            <a href="curriculos.html">Cúrriculos</a>
+            <a href="empresas.html">Empresas</a>
+            <a href="vagas.html">Vagas</a>
+        </h4>
+    </header>
+    <main>
+        <form>
+            <h1 style="text-align: center;"> Cadastro de Curriculo </h1>
+            <br>
+            <h3 style="text-align: center;">
+                <p> Nome* <input type="text" required> </p>
+                <p> Nome Social <input type="text"> </p>
+                <p> CPF* <input type="number" placeholder="000.000.000-00" max="14" required> </p>
+                <p> RG <input type="number" placeholder="00.000.000-0" max="9"> </p>
+                <p> Data de nascimento* <input type="date" required> </p>
+                <p> Naturalidade <input type="text"> </p>
+                <p> Nacionalidade* <input type="text" required> </p>
+                <p> Nome da mãe* <input type="text" required> </p>
+                <p> Nome do pai* <input type="text" required> </p>
+                <p>
+                    Sexo <input type="radio" name="sexo"> Feminino
+                         <input type="radio" name="sexo"> Masculino
+                         <input type="radio" name="sexo"> Outro
+                </p>
+                <p> Email* <input type="email" required></p>
+                <input type="reset" value="limpar campos"> 
+                <hr>
+             Enviar arquivo do Curriculo ⇨ <input type="file" value="Curriculo"> 
+             <hr>
+             <input type="submit" value="Enviar"> 
+            </h3>
+        </form>
+    </main>
+    
+</body>
+</html>
