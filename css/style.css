@@ -35,3 +35,9 @@ footer{
 h4, h2{
     text-align: center;
 }
+
+.estados{
+	position: absolute;
+	text-align: justify;
+	margin: 1px 1px 1px 20px;
+}
